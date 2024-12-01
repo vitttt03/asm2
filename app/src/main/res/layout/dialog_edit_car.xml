@@ -1,0 +1,33 @@
+<!-- dialog_edit_car.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên xe" />
+
+    <EditText
+        android:id="@+id/edtNamSX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Năm sản xuất"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hãng" />
+
+    <EditText
+        android:id="@+id/edtGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá"
+        android:inputType="numberDecimal" />
+</LinearLayout>

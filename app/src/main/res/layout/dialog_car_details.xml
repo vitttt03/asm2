@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgDetailAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/load" />
+
+    <TextView
+        android:id="@+id/tvDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên: "
+        android:textSize="16sp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvDetailNamSX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Năm sản xuất: "
+        android:textSize="16sp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvDetailHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hãng: "
+        android:textSize="16sp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvDetailGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá: "
+        android:textSize="16sp"
+        android:paddingTop="8dp" />
+</LinearLayout>

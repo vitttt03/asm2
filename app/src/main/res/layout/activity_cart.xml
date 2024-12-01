@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Tiêu đề giỏ hàng -->
+    <TextView
+        android:id="@+id/tv_cart_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giỏ hàng của bạn"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Danh sách sản phẩm trong giỏ hàng -->
+    <ListView
+        android:id="@+id/lv_cart_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_cart_header"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <!-- Tổng tiền -->
+    <TextView
+        android:id="@+id/tv_total_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng tiền: 0 VND"
+        android:textSize="18sp"
+        android:layout_below="@id/lv_cart_items"
+        android:padding="16dp"
+        android:textColor="@android:color/black"/>
+
+    <!-- Nút thanh toán -->
+    <Button
+        android:id="@+id/btn_pay_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thanh toán"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp" />
+
+    <!-- BottomNavigationView -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="50dp"
+        app:menu="@menu/menu" />
+</RelativeLayout>

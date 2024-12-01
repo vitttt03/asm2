@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtCarName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên xe"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtCarYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Năm sản xuất"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtCarBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hãng xe"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtCarPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá xe"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtCarImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL ảnh xe"
+        android:inputType="textUri" />
+</LinearLayout>
